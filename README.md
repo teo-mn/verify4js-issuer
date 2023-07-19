@@ -11,9 +11,12 @@ Verify4js-issuer нь сертификат, диплом, дансны хуул�
 
 
 ## Суулгах заавар
-`npm install verify4js-issuer`
-
-`yarn add verify4js-issuer`
+```shell
+npm install verify4js-issuer
+```
+```shell
+yarn add verify4js-issuer
+```
 
 ## Функцүүд
 ### `issuePdf`
