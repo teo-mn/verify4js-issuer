@@ -101,7 +101,6 @@ export class PdfIssuer extends Issuer {
         }
 
         const hashVal = await Utils.calcHash(filePath, this.hashType);
-        console.log(hashVal);
         return this.revoke(
             hashVal,
             revokerName,

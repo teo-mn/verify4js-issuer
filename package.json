@@ -1,6 +1,6 @@
 {
   "name": "verify4js-issuer",
-  "version": "1.0.9",
+  "version": "1.0.0",
   "description": "",
   "main": "/dist/Issuer.js",
   "types": "/dist/Issuer.d.ts",
