@@ -1,9 +1,9 @@
 {
   "name": "verify4js-issuer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "/dist/Issuer.js",
-  "types": "/dist/Issuer.d.ts",
+  "version": "1.0.1",
+  "description": "Verify4js-issuer нь сертификат, диплом, дансны хуулга зэрэг бичиг баримтыг блокчэйн дээр баталгаажуулж өгөх https://github.com/corex-mn/certify-sc ухаалаг гэрээтэй харьцдаг javascript хэлний сан юм.",
+  "main": "/dist/index.js",
+  "types": "/dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,6 +29,9 @@
   "homepage": "https://github.com/teo-mn/verify4js#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/teo-mn/verify4js"
+    "url": "git+https://github.com/teo-mn/verify4js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teo-mn/verify4js/issues"
   }
 }
