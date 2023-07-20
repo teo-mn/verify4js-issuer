@@ -53,7 +53,7 @@ PDF файлын хаш утгыг тооцож ухаалаг гэрээнд б
 ```js
 import {PdfIssuer} from "verify4js-issuer";
 
-const issuer = new PdfIssuer.PdfIssuer(
+const issuer = new PdfIssuer(
     '0xCc546a88Db1aF7d250a2F20Dee42eC436F99e075', 
     'https://node-testnet.teo.mn',
     '0x89995e30DAB8E3F9113e216EEB2f44f6B8eb5730',
@@ -99,7 +99,7 @@ issuer.issuePdf('test',
 ```js
 import {PdfIssuer} from "verify4js-issuer";
 
-const issuer = new PdfIssuer.PdfIssuer(
+const issuer = new PdfIssuer(
     '0xCc546a88Db1aF7d250a2F20Dee42eC436F99e075',
     'https://node-testnet.teo.mn',
     '0x89995e30DAB8E3F9113e216EEB2f44f6B8eb5730',
